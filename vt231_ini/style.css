@@ -1,27 +1,28 @@
 body {
-    font-family: arial, sans-serif;
+    font-family: Arial, Sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f9f9;
-    color: #345;
+    color: #234;
 }
 header {
     background-color: #4CAF50;
-    color: white;
+    color: grey;
     padding: 1em 0;
     text-align: center;
+	font-size: 1.5em;
 }
 main {
     padding: 1em;
 }
 
 article {
-    background: white;
+    background: grey;
     border: 1px solid #ddd;
     border-radius: 2px;
     margin-bottom: 1em;
-    padding: 1em;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 1.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1255);
 }
 article img {
     max-width: 100%;
@@ -30,9 +31,10 @@ article img {
     margin-bottom: 1em;
 }
 footer {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #3CAF25;
+    color: grey;
     text-align: center;
     padding: 1em 0;
     margin-top: 2em;
+	font-size: 1.2em;
 }
